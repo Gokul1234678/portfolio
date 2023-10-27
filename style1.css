@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Libre+Baskerville&family=Playfair+Display&display=swap');
+
+/* style for nav bar */
+
+*{
+    font-family: 'Caveat', cursive;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Playfair Display', serif;
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+body{
+    background-color: rgb(27, 56, 65);
+    /*  rgba(27, 43, 53, 0.938)
+    rgb(21, 75, 72)
+    */
+}
+
+.nav{
+     	 /* position:sticky;  sticky*/
+    /* top:0px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(54, 69, 82);
+    color: rgb(255, 255, 255);
+   
+}
+.logo{
+    font-size: 20px;
+    font-weight: 600;
+    padding-left:20px;
+}
+.logo:hover{
+color: cyan;
+
+}
+.nav-links{
+margin-right: 80px;
+}
+.nav-links ul{
+    display: flex;
+}
+.nav-links ul li{
+    list-style: none;
+    
+}
+.nav-links ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 16px;
+    display: block;
+}
+.nav-links ul li:hover{
+    background-color: #34495e;
+}
+.nav-links ul li a:hover{
+    color: aqua;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
